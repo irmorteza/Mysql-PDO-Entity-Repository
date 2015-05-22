@@ -15,7 +15,7 @@ It have been written for PHP-MySQL which uses the PDO extension.
 9. Implement __construct for class and call $this->Load .
 10. Enjoy it.
 
-##implement views
+##Implement view
 create table person :
 ```sql
 CREATE TABLE asteriskpanel.person (
