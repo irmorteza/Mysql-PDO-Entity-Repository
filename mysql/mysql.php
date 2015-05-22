@@ -5,26 +5,27 @@
  * version: 2.1
  * Create Date : 01 nov 2013
  * Last modify : 17 may 2015
- * site:
- */
-// mysql class v 2.1
-// set to PDO tools
-// uses prepare to avoid sql injection
-// by irmorteza
-// v 2 : 01 nov 2013
-// v 2.1 : 17 may 2015
-// How To:
-//
-//		-- with parametrs
-//		$query = "call MNG_SignUp(:fname, :lname, :email, :password);";
-//		$params = array(':fname' => $fname, ':lname' => $lname, ':email' => $email, ':password' => $password);
-//		$res = mysql::sql_execute_return_table($query, $params);
-//
-//
-//		-- without parametrs
-//		$query = "select * from member;";
-//		$res = mysql::sql_execute_return_table($query);
+ * site: https://github.com/irmorteza/Mysql-PDO-Entity-Repository
+ *       https://ir.linkedin.com/in/mortezairavani
 
+ mysql class v 2.1
+ set to PDO tools
+ uses prepare to avoid sql injection
+ by irmorteza
+ v 2 : 01 nov 2013
+ v 2.1 : 17 may 2015
+ How To:
+
+		-- with parametrs
+		$query = "call MNG_SignUp(:fname, :lname, :email, :password);";
+		$params = array(':fname' => $fname, ':lname' => $lname, ':email' => $email, ':password' => $password);
+		$res = mysql::sql_execute_return_table($query, $params);
+
+
+		-- without parametrs
+		$query = "select * from member;";
+		$res = mysql::sql_execute_return_table($query);
+ */
 
 include_once 'enums.php';
 function mysql_error_handle($e, $sql_query, $params = null){

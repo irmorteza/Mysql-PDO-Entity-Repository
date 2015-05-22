@@ -5,7 +5,8 @@
  * Author: Morteza Iravani
  * version: 1.1
  * Date: 2015-05-19
- * site:
+ * site: https://github.com/irmorteza/Mysql-PDO-Entity-Repository
+ *       https://ir.linkedin.com/in/mortezairavani
  */
 
 include_once 'mysql/mysql.php';
